@@ -1,4 +1,71 @@
-h1 {
-  color: red;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+body {
   font-family: "Poppins", sans-serif;
+  background: #e0ebff;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: black;
+  text-align: center;
+  padding: 16px 32px;
+  margin-top: 34px;
+  display: inline-block;
+  text-decoration: none;
+  background: white;
+  border-radius: 6px;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("../images/whaleshark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
 }
