@@ -1,16 +1,16 @@
 .container {
-  max-width: 1060px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1.8fr 2fr 2fr;
-  gap: 60px;
+  grid-template-columns: 1.5fr 2fr 2fr;
+  gap: 30px;
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
 .grid-2-columns {
@@ -25,17 +25,26 @@
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
 .card {
   background: white;
-  margin: 30px 0;
+  margin: 20px 0;
+}
+
+.card-header.grid {
+  gap: 0;
 }
 
 .card-body {
-  padding: 20px;
+  padding: 15px;
 }
 
 .card-footer {
-  padding: 0 30px 30px;
+  padding: 0 15px 15px;
 }
 
 .btn {
@@ -48,7 +57,7 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #002a61;
   text-decoration: none;
 }
 
@@ -62,6 +71,7 @@ ul {
 }
 
 li {
+  color: #002a61;
   font-size: 14px;
 }
 
@@ -112,7 +122,6 @@ header a {
   display: inline-block;
   text-decoration: none;
   background: white;
-  border-radius: 6px;
 }
 
 header {
