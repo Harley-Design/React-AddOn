@@ -261,5 +261,13 @@ footer a:hover {
 
   .grid {
     grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
